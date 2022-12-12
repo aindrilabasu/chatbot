@@ -1,0 +1,45 @@
+{"intents":[
+    {"tag": "greeting",
+    "patterns": ["Hi", "Hello", "Is anyone there?", "What's up?", "Hey", "Good day", "How are you?"],
+    "responses": ["Hello!", "Hey there", "How can I help you?", "Good to see you"],
+    "context_set": ""
+    },
+    {"tag": "goodbye",
+    "patterns": ["See you later", "cya", "Goodbye", "Bye", "I'm leaving", "Have a Good day"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Take care :)"],
+    "context_set": ""
+    },
+    {"tag": "name",
+    "patterns": ["What is your name?", "What should I call you?", "Do you have a name?"],
+    "responses": ["I am Andy", "You can call me Andy", "My name is Andy"],
+    "context_set": ""
+    },
+    {"tag": "age",
+    "patterns": ["Whats your age?", "age?", "How old", "how old is Andy?", "How old are you?"],
+    "responses": ["I am a bot!", "I dont have any age", "Bots do not age", "As young as you"],
+    "context_set": ""
+    },
+    {"tag": "work",
+    "patterns": ["What do you do?", "Whats your job?", "Do you work anywhere?", "Job?", "Where do you work?"],
+    "responses": ["I am your personal assistant", "My job is to help you", "I am helping you", "I am an assistant"],
+    "context_set": ""
+    },
+    {"tag": "joke",
+    "patterns": ["Tell me a joke", "Do you know any jokes?", "I wanna hear a joke", "Tell me something funny"],
+    "responses": ["I went to buy some camo pants but couldn’t find any.", "I was wondering why the frisbee kept getting bigger and bigger, but then it hit me.",
+     " I failed math so many times at school, I can’t even count.", "I know they say that money talks, but all mine says is ‘Goodbye.’", 
+     "Never trust atoms; they make up everything.", "Russian dolls are so full of themselves.", "Two fish are in a tank. One says, ‘How do you drive this thing?’",
+    "The last thing I want to do is hurt you; but it’s still on the list.", "What’s a frog’s favorite type of shoes? Open toad sandals."],
+    "context_set": ""
+    },
+    {"tag": "bored",
+    "patterns": ["I'm bored", "Its boring", "I feel bored", "Yawn!"],
+    "responses": ["Play a game!", "Listen to music", "You should try cooking", "Go out for a walk", "Watch a movie"],
+    "context_set": ""
+    },
+    {"tag": "fun",
+    "patterns": ["What can I do for fun?", "Suggest some fun activity", "Anything fun around here?"],
+    "responses": ["Play Mini Golf", "Bowling", "Pottery painting is nice!!", "Here's something fun - Axe throwing!!", "Ice-skating", "shopping!!!!"],
+    "context_set": ""
+    }
+]}
